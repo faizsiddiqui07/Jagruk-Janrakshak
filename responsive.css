@@ -1,0 +1,11 @@
+@media (min-width: 993px){
+    .social-connect .social-network li {
+        margin: 0 13px;
+    }
+}
+
+@media (max-width: 1200px){
+    .social-connect .social-network li {
+        margin: 0 7px;
+    }
+}
