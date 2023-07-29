@@ -24,3 +24,13 @@ var swiper = new Swiper(".our-partner", {
     },
 }
 });
+
+
+document.getElementById("menu").addEventListener("click",function(){
+    this.style.display="none";
+    document.getElementById("cross").style.display="block";
+})
+document.getElementById("cross").addEventListener("click",function(){
+    this.style.display="none";
+    document.getElementById("menu").style.display="block";
+})
