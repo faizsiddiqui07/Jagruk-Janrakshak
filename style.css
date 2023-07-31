@@ -159,11 +159,11 @@ button {
 .header-scrolled .navbar-toggler:focus{
     box-shadow: none;
 }
-
 .header-scrolled .navbar .nav-item a{
     color: white;
 }
-.header-scrolled .navbar .nav-item a:hover{
+.header-scrolled .navbar .nav-item a:hover,
+.header-scrolled .navbar .nav-item a.active{
     color: var(--hover-primary);
 }
 .banner-section .banner-left-news ul li{
