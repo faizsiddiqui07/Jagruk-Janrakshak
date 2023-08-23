@@ -47,7 +47,10 @@ button {
 ::-webkit-scrollbar-thumb {
     background-color: var(--secondry-color);
 }
-
+.container{
+    max-width: 100%;
+    padding: 0 5%;
+}
 .trending-section,
 .Sports-section,
 .banner-section,
@@ -68,28 +71,28 @@ button {
     width: 200px;
 }
 
-.upper-header-section .trending-news .breaking-news{
+.trending-news .breaking-news{
     border-radius: 20px;
 }
-.upper-header-section .trending-news .news {
+.trending-news .news {
     width: 160px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-.upper-header-section .trending-news .news{
+.trending-news .news{
     background-color: var(--secondry-color);
 }
 
-.upper-header-section .trending-news .news-scroll a {
+.trending-news .news-scroll a {
     text-decoration: none;
     color: var(--dark-color);
     font-weight: 600;
 }
-.upper-header-section .trending-news .news-scroll a:hover{
+.trending-news .news-scroll a:hover{
     color: black;
 }
 
-.upper-header-section .trending-news .dot {
+.trending-news .dot {
     height: 6px;
     width: 6px;
     margin-left: 30px;

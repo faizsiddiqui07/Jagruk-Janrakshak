@@ -1,4 +1,4 @@
-@media (min-width: 1400px) {
+@media (min-width: 1300px) {
     .none-card {
         display: none;
     }
@@ -20,9 +20,29 @@
     .social-connect .social-network li {
         margin: 0 13px;
     }
+    .trending-news .news{
+        width: 205px;
+        border-radius:0;
+    }
+    .trending-news .news span{
+        margin-left: 10%;
+    }
 }
+
 @media (max-width: 768px){
     .small-none-card{
         display: none;
+    }
+}
+
+@media (max-width: 430px){
+    .trending-news .news span{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 430px){
+    .trending-news .news span{
+        font-size: 14px;
     }
 }
