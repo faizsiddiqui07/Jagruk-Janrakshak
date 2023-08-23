@@ -45,7 +45,7 @@ button {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--secondry-color);
+    background-color: #00a650;
 }
 .container{
     max-width: 100%;
@@ -64,7 +64,10 @@ button {
 .upper-header-section {
     width: 100%;
     padding: 20px 0;
-    background-color: var(--primary-color);
+    background: url(./img/back.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .upper-header-section .news-logo img {
@@ -80,7 +83,7 @@ button {
     border-bottom-left-radius: 20px;
 }
 .trending-news .news{
-    background-color: var(--secondry-color);
+    background-color: #00a650;
 }
 
 .trending-news .news-scroll a {
@@ -152,11 +155,11 @@ button {
 }
 
 .header-scrolled .navbar {
-    background-color: var(--secondry-color);
+    /* background-color: var(--secondry-color); */
+    background-color: #00a650;
 }
 .header-scrolled .navbar-toggler{
     border: 0;
-    /* color: var(--primary-text); */
     line-height: 2;
 }
 .header-scrolled .navbar-toggler:focus{
@@ -168,6 +171,10 @@ button {
 .header-scrolled .navbar .nav-item a:hover,
 .header-scrolled .navbar .nav-item a.active{
     color: var(--hover-primary);
+}
+.navbar-section .navbar form button{
+    background-color: rgba(0, 0, 0, 0.454);
+    color: white;
 }
 .banner-section .banner-left-news ul li{
     padding: 10px 0;
@@ -232,7 +239,7 @@ button {
 /* Footer section start*/
   .footer-section{
     width: 100%;
-    background-color: var(--secondry-color);
+    background-color: #00a650;
   }
   .footer-section .news-logo img{
     width: 200px;
