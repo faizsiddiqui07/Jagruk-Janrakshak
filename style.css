@@ -110,9 +110,12 @@ button {
 .upper-header-section .contact-email a:hover{
     color: rgb(179, 176, 176);
 }
-
+.footer-section .social-connect{
+    width: 80%;
+}
  .social-connect {
     height: 30px;
+    width: 100%;
     margin-bottom: 15px;
     display: flex;
     justify-content: space-around;
@@ -143,7 +146,6 @@ button {
     color: var(--hover-primary);
     transition: all 0.1s ease-out;
 }
-
 .header-scrolled {
     position: -webkit-sticky;
     position: sticky;
