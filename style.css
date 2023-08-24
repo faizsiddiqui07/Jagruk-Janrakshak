@@ -185,23 +185,49 @@ button {
 .banner-section .banner-left-news ul li:last-child{
     border-bottom: none;
 }
-.banner-section .banner-left-news ul li a{
+.banner-left-news ul li a{
     color: var(--dark-color);
     font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.banner-section .banner-left-news ul li a:last-child{
+    margin-bottom: 0;
 }
 .banner-section .banner-left-news ul li a:hover{
     color: var(--hover-primary);
 }
+.banner-section .card .card-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.card .card-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
 
+.card .card-body{
+    padding: 10px;
+}
 .parent-card {
     gap: 15px;
 }
 .small-card{
     display: flex;
+    align-items: center;
     flex-direction: row;
     gap: 15px;
     background-clip: border-box;
     margin-bottom: 10px;
+    border: none;
 }
 .card-body,.mycard-body p{
     color: var(--dark-color);

@@ -1,81 +1,101 @@
-@media (min-width: 1300px) {
-    .none-card {
-        display: none;
+@media (min-width: 1251px) {
+
+    .card .card-text {
+        -webkit-line-clamp: 2;
     }
 }
 
-@media (min-width: 1200px) {
-    .small-none-card {
-        display: none;
-    }
-}
+@media (max-width: 1250px) {}
 
 @media (max-width: 1200px) {
     .social-connect .social-network li {
         margin: 0 7px;
     }
+
+    .card .card-body {
+        padding: 8px;
+    }
 }
 
+@media (min-width: 1024px) {
+    .banner-section .small-card:last-child{
+        display: none;
+    }
+}
 @media (max-width: 993px) {
+    .banner-section .big-card1 {
+        display: block;
+    }
+
     .social-connect .social-network li {
         margin: 0 13px;
     }
-    .trending-news .news{
+
+    .trending-news .news {
         width: 205px;
-        border-radius:0;
+        border-radius: 0;
     }
-    .trending-news .news span{
+
+    .trending-news .news span {
         margin-left: 13%;
     }
-    .footer-section .social-connect{
+
+    .footer-section .social-connect {
         width: 50%;
     }
 }
 
-@media (max-width: 768px){
-    .small-none-card{
-        display: none;
-    }
-    .footer-section .social-connect{
+@media (max-width: 768px) {
+    .footer-section .social-connect {
         width: 70%;
     }
+    .banner-left-news ul li:nth-child(+n+9){
+        display: none;
+     }
 }
-@media (max-width: 575px){
+
+@media (max-width: 575px) {
     .header-scrolled .navbar {
         background: url(./img/back.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .footer-section .social-connect{
+
+    .footer-section .social-connect {
         width: 100%;
     }
 }
 
-@media (max-width: 430px){
-    .trending-news .news{
+@media (max-width: 430px) {
+    .trending-news .news {
         width: 180px;
     }
-    .trending-news .news span{
+
+    .trending-news .news span {
         font-size: 15px;
     }
-    .footer-section .social-connect{
+
+    .footer-section .social-connect {
         width: 100%;
     }
-    .footer-section .social-connect h6{
+
+    .footer-section .social-connect h6 {
         font-size: 14px;
         margin-bottom: 0;
     }
-    .footer-section .social-connect ul li{
+
+    .footer-section .social-connect ul li {
         margin: 0 9px;
     }
-    .footer-section .social-connect ul li a{
+
+    .footer-section .social-connect ul li a {
         font-size: 14px;
     }
 }
 
-@media (max-width: 320px){
-    .trending-news .news span{
+@media (max-width: 320px) {
+    .trending-news .news span {
         font-size: 14px;
     }
 }
