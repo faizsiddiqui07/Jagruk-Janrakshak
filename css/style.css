@@ -157,8 +157,20 @@ button {
 }
 
 .header-scrolled .navbar {
-    /* background-color: var(--secondry-color); */
+    width: 100%;
     background-color: #00a650;
+}
+.header-scrolled .navbar ul{
+    width: 93%;
+    overflow: auto;
+    
+}
+.header-scrolled .navbar ul::-webkit-scrollbar{
+    height: 3px;
+    background: #00a650;
+}
+.header-scrolled .navbar ul::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0.311);
 }
 .header-scrolled .navbar-toggler{
     border: 0;
@@ -176,9 +188,13 @@ button {
 .header-scrolled .navbar .nav-item a.active{
     color: var(--hover-primary);
 }
-.navbar-section .navbar form button{
-    background-color: rgba(0, 0, 0, 0.454);
+.navbar-section .navbar .button-search{
+    display: flex;
+    align-items: center;
+}
+.navbar-section .navbar .search i{
     color: white;
+    cursor: pointer;
 }
 .banner-section .banner-left-news ul li{
     padding: 10px 0;
