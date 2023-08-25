@@ -15,3 +15,11 @@
     color: #333333;
     text-align: justify;
 }
+
+
+
+@media (max-width: 575px) {
+    .full-news .main-news .main-news-heading h1{
+        font-size: 24px;
+    }
+}
