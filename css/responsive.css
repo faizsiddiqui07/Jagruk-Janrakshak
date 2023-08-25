@@ -15,11 +15,17 @@
     .card .card-body {
         padding: 8px;
     }
+    .header-scrolled .navbar .nav-item  a{
+        margin: 7px;
+    }
 }
 
 @media (min-width: 1024px) {
     .banner-section .small-card:last-child{
         display: none;
+    }
+    .header-scrolled .navbar .nav-item  a{
+        margin: 6px;
     }
 }
 @media (max-width: 993px) {
@@ -56,7 +62,7 @@
 
 @media (max-width: 575px) {
     .header-scrolled .navbar {
-        background: url(./img/back.png);
+        background: url(../img/back.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;

@@ -1,0 +1,17 @@
+.full-news .main-news .main-news-heading h1{
+    font-size: 30px;
+}
+.full-news .main-news .main-news-image img{
+    /* width: 900px; */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.full-news .main-news .main-news-content p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+    text-align: justify;
+}

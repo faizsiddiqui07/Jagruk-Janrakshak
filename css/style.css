@@ -37,7 +37,7 @@ button {
 }
 
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -45,7 +45,7 @@ button {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #00a650;
+    background-color: #0000007a;
 }
 .container{
     max-width: 100%;
@@ -64,7 +64,7 @@ button {
 .upper-header-section {
     width: 100%;
     padding: 20px 0;
-    background: url(./img/back.png);
+    background: url(/img/back.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -167,8 +167,10 @@ button {
 .header-scrolled .navbar-toggler:focus{
     box-shadow: none;
 }
-.header-scrolled .navbar .nav-item a{
+.header-scrolled .navbar .nav-item  a{
+    font-size: 18px;
     color: white;
+    margin: 10px;
 }
 .header-scrolled .navbar .nav-item a:hover,
 .header-scrolled .navbar .nav-item a.active{
@@ -212,6 +214,8 @@ button {
     -webkit-box-orient: vertical;
     overflow: hidden;
     margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 21px;
 }
 
 .card .card-body{
