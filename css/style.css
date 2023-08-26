@@ -158,7 +158,7 @@ button {
 
 .header-scrolled .navbar {
     width: 100%;
-    background-color: #00a650;
+    background-color: #ff5722;
 }
 .header-scrolled .navbar ul{
     width: 93%;
@@ -186,7 +186,7 @@ button {
 }
 .header-scrolled .navbar .nav-item a:hover,
 .header-scrolled .navbar .nav-item a.active{
-    color: var(--hover-primary);
+    color: #00a650  ;
 }
 .navbar-section .navbar .button-search{
     display: flex;
@@ -287,7 +287,7 @@ button {
 /* Footer section start*/
   .footer-section{
     width: 100%;
-    background-color: #00a650;
+    background-color: #ff5722;
   }
   .footer-section .news-logo img{
     width: 200px;
@@ -315,7 +315,7 @@ button {
     margin-left: 5px;
   }
   .footer_wrapper .copyright-section{
-    background-color: var(--primary-color);
+    background-color: #00a650;
   }
   .footer_wrapper .copyright-section p,
   .footer_wrapper .copyright-section a{
