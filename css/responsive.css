@@ -18,14 +18,14 @@
     .header-scrolled .navbar .nav-item  a{
         margin: 7px;
     }
+    .footer-section .news-logo h3{
+        font-size: 25px;
+    }
 }
 
 @media (min-width: 1024px) {
     .banner-section .small-card:last-child{
         display: none;
-    }
-    .header-scrolled .navbar .nav-item  a{
-        margin: 6px;
     }
 }
 @media (max-width: 993px) {
@@ -48,6 +48,9 @@
 
     .footer-section .social-connect {
         width: 50%;
+    }
+    .footer-section .news-logo h3{
+        font-size: 30px;
     }
 }
 

@@ -60,7 +60,12 @@ button {
     width: 100%;
     padding: 20px 0;
 }
-
+.news-logo h3{
+    font-weight: 900;
+}
+.footer-section .news-logo h3{
+    font-size: 27px;
+}
 .upper-header-section {
     width: 100%;
     padding: 20px 0;
@@ -68,10 +73,6 @@ button {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.upper-header-section .news-logo img {
-    width: 200px;
 }
 
 .trending-news .breaking-news{
@@ -288,9 +289,6 @@ button {
   .footer-section{
     width: 100%;
     background-color: #ff5722;
-  }
-  .footer-section .news-logo img{
-    width: 200px;
   }
   .footer-section h4{
     color: white;
