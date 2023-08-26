@@ -167,7 +167,7 @@ button {
 }
 .header-scrolled .navbar ul::-webkit-scrollbar{
     height: 3px;
-    background: #00a650;
+    background: #ff5722;
 }
 .header-scrolled .navbar ul::-webkit-scrollbar-thumb{
     background-color: rgba(0, 0, 0, 0.311);
