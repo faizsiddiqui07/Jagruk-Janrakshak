@@ -62,6 +62,7 @@ button {
 }
 .news-logo h3{
     font-weight: 900;
+    margin-bottom: 0;
 }
 .footer-section .news-logo h3{
     font-size: 27px;
@@ -164,7 +165,9 @@ button {
 .header-scrolled .navbar ul{
     width: 93%;
     overflow: auto;
-    
+}
+.navbar .show{
+    height: 100vh;
 }
 .header-scrolled .navbar ul::-webkit-scrollbar{
     height: 3px;
