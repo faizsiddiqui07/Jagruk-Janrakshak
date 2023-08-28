@@ -169,6 +169,9 @@ button {
 .navbar .show{
     height: 100vh;
 }
+.navbar .show ul{
+    margin: 25px 0;
+}
 .header-scrolled .navbar ul::-webkit-scrollbar{
     height: 3px;
     background: #ff5722;
