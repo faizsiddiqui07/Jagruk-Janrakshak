@@ -168,9 +168,13 @@ button {
 }
 .navbar .show{
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.navbar .show ul{
-    margin: 25px 0;
+.navbar .show ul li{
+    text-align: center;
+    width: 100%;
 }
 .header-scrolled .navbar ul::-webkit-scrollbar{
     height: 3px;
