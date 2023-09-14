@@ -186,7 +186,7 @@ button {
 }
 
 .navbar .show { 
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
 }
