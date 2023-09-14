@@ -190,7 +190,9 @@ button {
     display: flex;
     justify-content: center;
 }
-
+.navbar .show ul{
+    margin-top: 10px;
+}
 .navbar .show ul li {
     text-align: center;
     width: 100%;
