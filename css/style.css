@@ -185,7 +185,7 @@ button {
     overflow: auto;
 }
 
-.navbar .show {
+.navbar .show { 
     height: 100vh;
     display: flex;
     justify-content: center;
