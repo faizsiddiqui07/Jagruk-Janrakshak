@@ -26,11 +26,14 @@ var swiper = new Swiper(".our-partner", {
 });
 
 
-document.getElementById("menu").addEventListener("click",function(){
-    this.style.display="none";
+
+document.getElementById("menu").addEventListener("click", ()=>{
+    document.getElementById("menu").style.display="none";
     document.getElementById("cross").style.display="block";
+    document.querySelector("body").classList.add("active")
 })
-document.getElementById("cross").addEventListener("click",function(){
-    this.style.display="none";
+document.getElementById("cross").addEventListener("click", ()=>{
+    document.getElementById("cross").style.display="none";
     document.getElementById("menu").style.display="block";
+    document.querySelector("body").classList.remove("active")
 })
