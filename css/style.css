@@ -183,6 +183,7 @@ button {
 .header-scrolled .navbar ul {
     width: 93%;
     overflow: auto;
+    margin-left: 2%;
 }
 
 .navbar .show { 
@@ -219,7 +220,7 @@ button {
 .header-scrolled .navbar .nav-item a {
     font-size: 18px;
     color: white;
-    margin: 10px;
+    margin: 5px;
 }
 
 .header-scrolled .navbar .nav-item a:hover,

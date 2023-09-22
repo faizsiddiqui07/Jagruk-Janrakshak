@@ -5,9 +5,10 @@
     }
 }
 
-@media (max-width: 1250px) {}
-
 @media (max-width: 1200px) {
+    .header-scrolled .navbar ul {
+        width: 90%;
+    }
     .social-connect .social-network li {
         margin: 0 7px;
     }
@@ -55,6 +56,9 @@
 }
 
 @media (max-width: 768px) {
+    .header-scrolled .navbar ul {
+        width: 88%;
+    }
     .footer-section .social-connect {
         width: 70%;
     }
@@ -69,6 +73,9 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+    .header-scrolled .navbar .nav-item a span{
+        margin: 0 10px;
     }
     .footer-section .social-connect {
         width: 100%;
