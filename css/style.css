@@ -370,7 +370,7 @@ button {
 }
 
 .footer-section .link-widget li a:hover {
-    color: var(--hover-primary);
+    color: #00a650;
     margin-left: 5px;
 }
 
