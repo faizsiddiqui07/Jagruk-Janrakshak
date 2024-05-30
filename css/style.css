@@ -267,7 +267,7 @@ button {
 
 .banner-section .card .card-text {
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -279,7 +279,7 @@ button {
     overflow: hidden;
     margin-bottom: 8px;
     font-size: 15px;
-    line-height: 21px;
+    line-height: 22px;
 }
 
 .card .card-body {
