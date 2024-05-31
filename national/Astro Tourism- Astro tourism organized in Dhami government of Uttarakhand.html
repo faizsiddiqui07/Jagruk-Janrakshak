@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro Tourism- Astro tourism organized in Dhami government of Uttarakhand</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Swipper CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <!-- Custome css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/project.css">
+</head>
+
+<body>
+    <section class="upper-header-section d-none d-sm-block">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="news-logo ">
+                        <!-- <a href="../index.html"><img src="../img/logo.webp" alt="logo"></a> -->
+                        <a href="../index.html" class="d-flex">
+                            <h3 class="me-2" style="color: #00a650;">जागरुक</h3>
+                            <h3 style="color: #52b6ef;">जनरक्षक</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="trending-news">
+                        <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
+                            <div
+                                class="d-flex flex-row flex-grow-1 flex-fill justify-content-center py-2 text-white px-1 news">
+                                <span class="d-flex align-items-center">&nbsp;Trending News</span>
+                            </div>
+
+                            <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();"
+                                onmouseout="this.start();"> <a href="#">कनाडा में 400 किलो सोना और लाखों
+                                    डॉलर की चोरी के मामले में गिरफ़्तारी </a> 
+                                    <!-- <span class="dot"></span>  -->
+                            </marquee>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 text-center mt-4 mt-sm-0">
+                    <div class="social-connect">
+                        <h6>Follow us</h6>
+                        <ul class="social-network p-0 list-unstyled">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-email">
+                        <a href="#">info@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="navbar-section header-scrolled">
+        <nav class="navbar navbar-expand-sm navbar-light py-1">
+            <div class="container">
+                <a class="navbar-brand news-logo d-flex" href="../index.html">
+                    <h3 class="me-2" style="color: #00a650;">जागरुक</h3>
+                    <h3 style="color: #52b6ef;">जनरक्षक</h3>
+                </a>
+                <div class="button-search">
+                    <div class="search d-block d-sm-none me-4">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars menu" id="menu" style="color: white;"></i>
+                        <i class="fa-solid fa-xmark" id="cross" style="color: white; display: none;"></i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse overflow-hidden" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-sm-auto mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Home <span>होम</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Politics <span>पॉलिटिक्स</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Movies <span>मूवीज</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sports <span>स्पोर्ट्स</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">International <span>इंटरनेशनल</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">World <span>वर्ल्ड</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Business <span>बिज़नेस</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Education <span>एजुकेशन</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Story <span>स्टोरी</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Health <span>हेल्थ</span></a>
+                        </li>
+                    </ul>
+                    <div class="search d-sm-block d-none">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="trending-news d-lg-none">
+            <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
+                <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center py-2 text-white px-1 news">
+                    <span class="d-flex align-items-center ms-0">&nbsp;Trending News</span>
+                </div>
+
+                <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();"
+                                onmouseout="this.start();"> <a href="../international/Arrest made in case of theft of 400 kg gold and millions of dollars in Canada.html">कनाडा में 400 किलो सोना और लाखों
+                                    डॉलर की चोरी के मामले में गिरफ़्तारी </a> 
+                                    <span class="dot"></span> 
+                                    <a href="./international/What is the matter of cancer causing substance being found in MDH and Everest spices in Hong Kong and Singapore.html">हांगकांग और सिंगापुर में एमडीएच और एवरेस्ट के मसालों में कैंसर पैदा करने वाला पदार्थ मिलने का क्या है मामला? </a> 
+                            </marquee>
+            </div>
+        </div>
+    </section>
+
+    <section class="full-news">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 mt-4 mt-sm-5">
+                    <div class="main-news">
+                        <div class="main-news-heading">
+                            <h1>
+                                Astro Tourism: Astro tourism organized in Dhami government of Uttarakhand
+                            </h1>
+                            <h1 class="mt-3">
+                                Astro Tourism : उत्तराखंड की धामी सरकार में एस्ट्रो टूरिज्म का आयोजन 
+                            </h1>
+                        </div>
+                        <div class="main-news-image mt-5">
+                            <img src="../img/uttarakhand4.jpeg" alt="" class="img-fluid">
+                        </div>
+                        <div class="main-news-content mt-4">
+                            <h4>Uttarakhand Tourism Development Board in collaboration with Starscapes, India's leading astro tourism company plans to provide a complete astro tourism experience through Nakshatra Sabha</h4>
+                            <h4 class="mb-4">उत्तराखंड टूरिज्म डेवलपमेंट बोर्ड ने भारत की अग्रणी एस्ट्रो टूरिज्म कंपनी स्टारस्केप्स के साथ मिलकर नक्षत्र सभा के जरिए संपूर्ण एस्ट्रो टूरिज्म अनुभव प्रदान करने की योजना बनाई है </h4>
+                            <p>Astro Tourism - Get ready for the moment of excitement and curiosity about Astro Tourism in Uttarakhand, because Uttarakhand will become an exemplary example of the first such campaign to promote Astro Tourism in the country, from today onwards. India's first 'Nakshatra Sabha' is going to start. This is a completely new initiative regarding Astro Tourism in Uttarakhand. In which, apart from intellectuals and researchers from all over the world, film cinematographers who are interested in the vast depths of the sky will also be able to film exciting scenes in the sky. Uttarakhand is the first state to start such a new tourism campaign, in which all those places of Uttarakhand have been identified, where the sky is visible due to the clean environment.
+                            </p>
+                            <p>Astro Tourism - आप तैयार हो जाएँ , उत्तराखंड में खगोलीय पर्यटन [एस्ट्रो टूरिज्म ] की उत्सुकता एवं उत्साह भरे पल के लिए ,क्योंकि देश में एस्ट्रो टूरिज्म को बढ़ावा देने के लिए इस तरह के पहले अभियान का अनुकरणीय - उदहारण  बनेगा उत्तराखंड , आज से उत्तराखंड में भारत के पहले ‘नक्षत्र सभा’ की शुरूआत होने जा रही है. उत्तराखंड में एस्ट्रो टूरिज्म को लेकर यह बिल्कुल नई तरह की पहल है, जिसमें दुनिया भर के बुद्धिजीवी लोग और शोधकर्ताओं के अलावा आकाश की विशाल गहराइयों में अपनी रुचि रखने वाले फिल्म सिनेमैटोग्राफर भी आकाश में उत्साहित करने वालें दृश्यों का फिल्मांकन कर पाएंगे. उत्तराखंड इस तरह के नए  पर्यटन अभियान की शुरूआत करने वाला पहला राज्य है, इसमें उत्तराखंड की उन तमाम जगहों को चिन्हित किया गया है, जहां वातावरण स्वच्छ होने की वजह से आसमान साफ नजर आता है |</p>
+                            <div class="main-news-image">
+                                <img src="../img/uttarakhand2.jpeg" alt=""
+                                    class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="main-news-content mt-4">
+                            <h4>Nakshatra Sabha will run from 31st May to the entire month of June.</h4>
+                            <h4 class="mb-4">31 मई से जून के पूरे महीने तक चलेगी नक्षत्र सभा</h4>
+                            <p>For your information, let us tell you that Uttarakhand Tourism Development Board is organizing 'Nakshatra Sabha' in collaboration with India's leading astro tourism company Starscapes. This is the launch of the first annual tourism campaign aimed at promoting astro tourism in the country. It is planned to provide a complete astro tourism experience through Nakshatra Sabha which includes star gazing, special solar observation, Binocular photography competitions [astrophotography competitions], constellation gathering and many other special activities will be organized under this tourism campaign.</p>
+                            <p>आपको जानकारी के लिए बता दें कि उत्तराखंड टूरिज्म डेवलपमेंट बोर्ड ने भारत की अग्रणी एस्ट्रो टूरिज्म कंपनी स्टारस्केप्स के साथ मिलकर ‘नक्षत्र सभा’ का आयोजन कर रहा है. यह देश में एस्ट्रो टूरिज्म को बढ़ावा देने के  उद्देश्य  से पहला सालाना  पर्यटन अभियान की शुरूआत है. नक्षत्र सभा के जरिए संपूर्ण एस्ट्रो टूरिज्म अनुभव प्रदान करने की योजना बनाई गई है, जिसके अंतर्गत तारों को निहारना [ स्टारगेजिंग ], विशेष सौर अवलोकन [ स्पेशल सोलर ऑब्जर्वेशन ], दूरबीन द्वारा फोटोग्राफी की प्रतियोगिताएं  [ एस्ट्रोफोटोग्राफी प्रतियोगिताएं ], इस पर्यटन अभियान के अंतर्गत नक्षत्र सभा समेत अन्य कई विशेष गतिविधियों का आयोजन किया जाएगा |</p>
+                            <div class="main-news-image">
+                                <img src="../img/uttarakhand3.jpeg" alt=""
+                                    class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="main-news-content mt-4">
+                            <p>The first Nakshatra Sabha is being organized at George Everest in Mussoorie in the month of June and it will continue at various places in the Himalayas till the middle of next year 2025. For Astro Tourism in Uttarakhand, many places with huge solar system and Akash Ganga have been identified in Uttarkashi, Pithoragarh, Nainital and Chamoli districts. Where seminars and webinars will also be organized with experienced experts. Through this, an effort will be made to take the adventure lovers and tourism of astronomers from all over the world to the world of space.</p>
+                            <p>पहली नक्षत्र सभा जून के महीने में मसूरी स्थित जॉर्ज एवरेस्ट पर आयोजित की जा रही है और यह   हिमालय के तमाम अलग-अलग जगहों पर अगले साल 2025 के मध्य तक जारी रहेगी. उत्तराखंड में एस्ट्रो टूरिज्म के लिए उत्तरकाशी, पिथौरागढ़, नैनीताल और चमोली जिलों में  विशाल सौर मंडल ,आकाश गंगा  वाली कई स्थलों  का चिन्हीकरण किया गया है, जहां पर अनुभवी विशेषज्ञों के साथ सेमीनार और वेबीनार भी आयोजित किए जाएंगे. इसके जरिए दुनियाभर के  खगोल शास्त्रियों के  साहसिक प्रेमियों और  पर्यटन को अंतरिक्ष की दुनियां तक ले जाने का प्रयास किया जाएगा |</p>
+                            <div class="main-news-image">
+                                <img src="../img/uttarakhand.jpeg" alt=""
+                                    class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="main-news-content mt-4">
+                            <p>Uttarakhand Tourism Secretary Sachin Kurve said that there are many places suitable for astronomical tourism in Uttarakhand. The vast forest wealth and clean nature of Uttarakhand is conducive to astro tourism. Regarding the Nakshatra Sabha to be held in Mussoorie George Everest in June, Sachin Kurve said that this is the first such tourism campaign [Astro Tourism Campaign] in India. Our aim is to excite tourists from all over the world about the universe and give them an experience of the vast solar system and Akash Ganga.</p>
+                            <p>उत्तराखंड पर्यटन सचिव सचिन कुर्वे ने बताया कि उत्तराखंड में खगोलीय पर्यटन के लिए अनुकूल कई स्थल  उपलब्ध  हैं. उत्तराखंड की विशाल वन संपदा और स्वच्छ प्रकृति  खगोलीय पर्यटन [एस्ट्रो टूरिज्म ] के लिए सहयोगी है. मसूरी जॉर्ज एवरेस्ट में जून में लगने वाली नक्षत्र सभा को लेकर सचिन कुर्वे ने कहा कि यह भारत में इस तरह का पहला पर्यटन अभियान  [ एस्ट्रो टूरिज्म कैंपने ] है . हमारा उद्देश्य दुनियाभर से आने वाले पर्यटकों को ब्रह्मांड  के प्रति  उत्साहित कर विशाल सौर मंडल ,आकाश गंगा  से अनुभव कराना है |</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5 d-none d-md-block">
+                    <div class="latest-news">
+                        <div class="latest-news-title">
+                            <h5>Latest News</h5>
+                        </div>
+                        <div class="small-card card">
+                            <a href="../international/What is the matter of cancer causing substance being found in MDH and Everest spices in Hong Kong and Singapore.html"><img src="../img/MDH3.jpeg" height="90px"
+                                    alt="..."></a>
+                            <a href="#">
+                                <div class="mycard-body ">
+                                    <p class="card-text"> What is the matter of cancer causing substance being found in MDH and Everest
+                                        spices in Hong Kong and Singapore?</p>
+                                    <p class="card-text">हांगकांग और सिंगापुर में एमडीएच और एवरेस्ट के मसालों में कैंसर
+                                        पैदा करने वाला पदार्थ मिलने का क्या है मामला?</p>
+                                </div>
+                            </a>
+                        </div>
+                        <hr>
+                        <div class="small-card card">
+                            <a href="#"><img src="../img/war4.jpeg" height="90px"
+                                    alt="..."></a>
+                            <a href="#">
+                                <div class="mycard-body ">
+                                    <p class="card-text">Israel vs Iran: Who has how much power?</p>
+                                    <p class="card-text">इसराइल बनाम ईरान: किसके पास कितनी ताक़त</p>
+                                </div>
+                            </a>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="my-5">
+    <!-- <section class="cards-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6  mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6  mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Footer section start -->
+    <section class="footer_wrapper mt-4 mb-md-0 text-center text-sm-start">
+        <div class="footer-section py-5">
+            <div class="container px-5 px-lg-0">
+                <div class="row m-0 align-items-center justify-content-center ">
+                    <div class="col-lg-2 col-sm-12 mb-5 mb-lg-0 d-flex justify-content-center">
+                        <div class=" news-logo  ms-0 ms-sm-4">
+                            <a href="../index.html" class="d-flex">
+                                <h3 class="me-2" style="color: #00a650; font-weight: 900;">जागरुक</h3>
+                                <h3 style="color: #52b6ef; font-weight: 900;">जनरक्षक</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-sm-6  my-3 my-lg-0 order-4 order-lg-0 d-flex flex-column align-items-center">
+                        <h4 class="mb-3">Trending News</h4>
+                        <ul class="link-widget p-0 list-unstyled ">
+                            <li><a href="#">India vs West Indies</a></li>
+                            <li><a href="#">Pakistan</a></li>
+                            <li><a href="#">Politics</a></li>
+                            <li><a href="#">Seema Haider</a></li>
+                            <li><a href="#">Wheather</a></li>
+                        </ul>
+                    </div>
+                    <div
+                        class="col-lg-3 col-sm-6  my-3 my-lg-0 order-3 order-lg-0 d-flex flex-column align-items-center">
+                        <h4 class="mb-3">Categories</h4>
+                        <ul class="link-widget p-0 list-unstyled">
+                            <li><a href="../politics/index.html">Politcs</a></li>
+                            <li><a href="#">Sports</a></li>
+                            <li><a href="#">Bollywood</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">International</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 d-flex justify-content-center">
+                        <div class="social-connect d-flex align-items-center">
+                            <h6 class="mb-0">Follow us</h6>
+                            <ul class="social-network p-0 mb-0 list-unstyled">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright-section d-flex py-1 justify-content-center">
+            <p class="m-0">Copyright <a href="#" class="text-decoration-none"> &copy;News Channel.</a> All Rights
+                Reserved</p>
+        </div>
+    </section>
+    <!-- Footer section end -->
+
+
+    <!-- Bootstrap CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+
+    <!-- Swipper JS CDN -->
+    <script src="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.js"></script>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
