@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete-story-of-EVM-VVPAT-Know-the-answers-to-all-important-questions</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Swipper CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <!-- Custome css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/project.css">
+</head>
+
+<body>
+    <section class="upper-header-section d-none d-sm-block">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="news-logo ">
+                        <!-- <a href="../index.html"><img src="../img/logo.webp" alt="logo"></a> -->
+                        <a href="../index.html" class="d-flex">
+                            <h3 class="me-2" style="color: #00a650;">जागरुक</h3>
+                            <h3 style="color: #52b6ef;">जनरक्षक</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="trending-news">
+                        <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
+                            <div
+                                class="d-flex flex-row flex-grow-1 flex-fill justify-content-center py-2 text-white px-1 news">
+                                <span class="d-flex align-items-center">&nbsp;Trending News</span>
+                            </div>
+
+                            <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();"
+                                onmouseout="this.start();"> <a href="#">कनाडा में 400 किलो सोना और लाखों
+                                    डॉलर की चोरी के मामले में गिरफ़्तारी </a>
+                                <!-- <span class="dot"></span>  -->
+                            </marquee>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 text-center mt-4 mt-sm-0">
+                    <div class="social-connect">
+                        <h6>Follow us</h6>
+                        <ul class="social-network p-0 list-unstyled">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-email">
+                        <a href="#">info@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="navbar-section header-scrolled">
+        <nav class="navbar navbar-expand-sm navbar-light py-1">
+            <div class="container">
+                <a class="navbar-brand news-logo d-flex" href="../index.html">
+                    <h3 class="me-2" style="color: #00a650;">जागरुक</h3>
+                    <h3 style="color: #52b6ef;">जनरक्षक</h3>
+                </a>
+                <div class="button-search">
+                    <div class="search d-block d-sm-none me-4">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars menu" id="menu" style="color: white;"></i>
+                        <i class="fa-solid fa-xmark" id="cross" style="color: white; display: none;"></i>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse overflow-hidden" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-sm-auto mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Home <span>होम</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Politics <span>पॉलिटिक्स</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Movies <span>मूवीज</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sports <span>स्पोर्ट्स</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">International <span>इंटरनेशनल</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">World <span>वर्ल्ड</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Business <span>बिज़नेस</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Education <span>एजुकेशन</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Story <span>स्टोरी</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Health <span>हेल्थ</span></a>
+                        </li>
+                    </ul>
+                    <div class="search d-sm-block d-none">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="trending-news d-lg-none">
+            <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
+                <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center py-2 text-white px-1 news">
+                    <span class="d-flex align-items-center ms-0">&nbsp;Trending News</span>
+                </div>
+
+                <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();"
+                    onmouseout="this.start();"> <a
+                        href="../international/Arrest made in case of theft of 400 kg gold and millions of dollars in Canada.html">कनाडा
+                        में 400 किलो सोना और लाखों
+                        डॉलर की चोरी के मामले में गिरफ़्तारी </a>
+                    <span class="dot"></span>
+                    <a
+                        href="./international/What is the matter of cancer causing substance being found in MDH and Everest spices in Hong Kong and Singapore.html">हांगकांग
+                        और सिंगापुर में एमडीएच और एवरेस्ट के मसालों में कैंसर पैदा करने वाला पदार्थ मिलने का क्या है
+                        मामला? </a>
+                </marquee>
+            </div>
+        </div>
+    </section>
+
+    <section class="full-news">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 mt-4 mt-sm-5">
+                    <div class="main-news">
+                        <div class="main-news-heading">
+                            <h1>
+                                Complete story of EVM, VVPAT: Know the answers to all important questions
+                            </h1>
+                            <h1 class="mt-3">
+                                ईवीएम, वीवीपैट की पूरी कहानी: जानिए सभी अहम सवालों के जवाब
+                            </h1>
+                        </div>
+                        <div class="main-news-image mt-5">
+                            <img src="../img/EVM1.jpeg" alt="" class="img-fluid">
+                        </div>
+                        <div class="main-news-content mt-4">
+                            <p>EVM machine is made up of three parts. One is Control Unit (CU), the other is Balloting
+                                Unit (BU). Both these machines are connected by a five meter long wire. The third part
+                                is – VVPAT. Balloting unit is the part which is kept inside the voting compartment and
+                                the balloting unit is kept with the polling officer.
+                                <br>
+                                The Supreme Court has rejected all the petitions in the matter related to Electronic
+                                Voting Machine i.e. EVM and Voter Verifiable Paper Audit Trail i.e. VVPAT. The Supreme
+                                Court has rejected the petition to conduct elections through ballot paper and 100
+                                percent matching with VVPAT. On the decision of the Supreme Court, PM Modi said, every
+                                leader of the Indi alliance has committed the sin of creating doubt in the minds of the
+                                public regarding EVMs. Today the Supreme Court has given them a deep blow. The court has
+                                clearly said that the old era of ballot paper will not return. Earlier while delivering
+                                the verdict, Justice Sanjeev Khanna said, we have issued two instructions. The first
+                                instruction is that after the completion of the symbol loading process, the unit should
+                                be sealed. Secondly, the symbol store unit should be kept for at least 45 days. Symbol
+                                loading unit is used to print the party symbol and candidate name on the VVPAT slip.
+                            </p>
+                            <p class="mb-4">ईवीएम मशीन तीन हिस्सों से बनी होती है. एक होती है कंट्रोल यूनिट (सीयू),
+                                दूसरी बैलेटिंग यूनिट (बीयू). ये दोनों मशीनें पांच मीटर लंबी एक तार से जुड़ी होती हैं.
+                                तीसरा हिस्सा होता है- वीवीपैट.बैलेटिंग यूनिट वह हिस्सा होता है, जिसे वोटिंग कंपार्टमेंट
+                                के अंदर रखा जाता है और बैलेटिंग यूनिट को पोलिंग ऑफिसर के पास रखा जाता है.
+                                <br>
+                                इलेक्ट्रॉनिंग वोटिंग मशीन यानी ईवीएम और वोटर वेरिफियेबिल पेपर ऑडिट ट्रेल यानी वीवीपैट से
+                                जुड़े मामले में सुप्रीम कोर्ट ने सभी याचिकाओं को ख़ारिज किया है.सुप्रीम कोर्ट ने बैलेट
+                                पेपर से चुनाव करवाने और वीवीपैट के साथ 100 फ़ीसदी मिलान करने की याचिका को ख़ारिज किया
+                                है. सुप्रीम कोर्ट के फ़ैसले पर पीएम मोदी ने कहा, इंडी गठबंधन के हर नेता ने ईवीएम को लेकर
+                                जनता के मन में संदेह पैदा करने का पाप किया है. आज सुप्रीम कोर्ट ने इनको गहरा झटका दिया
+                                है. कोर्ट ने साफ कह दिया है कि बैलेट पेपर वाला पुराना दौर वापस लौटकर नहीं आएगा. इससे
+                                पहले फ़ैसला सुनाते हुए जस्टिस संजीव खन्ना ने कहा, हमने दो निर्देश जारी किए हैं. पहला
+                                निर्देश ये कि सिंबल के लोड होने की प्रक्रिया पूरी होने के बाद उस यूनिट को सील किया जाए.
+                                दूसरा ये कि सिंबल स्टोर यूनिट को कम से कम 45 दिन के लिए रखा जाए. वीवीपैट स्लिप पर पार्टी
+                                का चुनाव चिह्न और उम्मीदवार का नाम छापने के लिए सिंबल लोडिंग यूनिट का इस्तेमाल होता है |
+
+                            </p>
+                            <div class="main-news-image">
+                                <img src="../img/EVM2.jpeg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="main-news-content mt-4">
+                            <h4>Supreme Court</h4>
+                            <h4 class="mb-4">सुप्रीम कोर्ट</h4>
+                            <p>While giving the decision, the Supreme Court said – Democracy is meant to maintain harmony and not trusting the election process blindly can create suspicion without any reason. The Supreme Court said that if during verification it is found that EVMs have been tampered with, then the Election Commission will return their fees to the candidates. Candidates can request the Election Commission for verification of EVM microcontroller within 7 days of declaration of election results. For this they have to pay a fixed fee. On the complaint of the candidates who stood second or third in the election, the Election Commission can ask the EVM manufacturer for verification of the microchip of the EVM. After the court's decision, senior lawyer Prashant Bhushan said, we had said that these EVMs have a memory which can be tampered with. Therefore it is important that VVPAT should be checked. The slip that comes out should be put in the ballot box and matched. Bhushan said, The Supreme Court has rejected our petitions. The Supreme Court has said that the Election Commission should investigate whether if we put bar code on all the ballot papers, it can be counted through the machine or not. The Supreme Court had reserved its decision on the petitions requesting for matching of all the votes cast through EVMs with VVPAT. The bench of Justice Sanjeev Khanna and Justice Dipankar Dutta had said that there is a need for clarification on some issues because there is not much clarity in the answers given by the Commission to the frequently asked questions about EVMs.</p>
+                            <p>सुप्रीम कोर्ट ने फ़ैसला सुनाते हुए कहा- लोकतंत्र सामंजस्य बनाए रखने के लिए होता है और आंख मूंदकर चुनाव की प्रक्रिया पर भरोसा ना करने से बिना कारण शक पैदा हो सकता है. सुप्रीम कोर्ट ने कहा कि अगर वेरिफिकेशन के दौरान ये पाया गया कि ईवीएम के साथ छेड़छाड़ हुई है तो चुनाव आयोग उम्मीदवारों को उनकी फ़ीस लौटाएगा. चुनाव के नतीजे घोषित होने के 7 दिन के भीतर ईवीएम के माइक्रोकंट्रोल के वेरिफिकेशन के लिए उम्मीदवार चुनाव आयोग से गुज़ारिश कर सकते हैं. इसके लिए उन्हें एक तय फ़ीस देनी होती है. चुनाव में दूसरे या तीसरे नंबर पर रहे उम्मीदवारों की शिकायत पर चुनाव आयोग ईवीएम निर्माता को ईवीएम के माइक्रोचिप के वेरिफिकेशन के लिए कह सकता है. कोर्ट के फ़ैसले के बाद वरिष्ठ वकील प्रशांत भूषण ने कहा, हम लोगों का ये कहना था कि ये ईवीएम जो है, इनमें एक ऐसी मेमरी होती है, जिससे छेड़छाड़ की जा सकती है. इसलिए ये ज़रूरी है कि वीवीपैट की जांच करनी चाहिए. जो पर्ची निकलती है, उसे बैलेट बॉक्स में डालकर मिलान करना चाहिए. भूषण ने कहा, सुप्रीम कोर्ट ने हमारी याचिकाओं को ख़ारिज किया है. सुप्रीम कोर्ट ने कहा है कि चुनाव आयोग ये जांच करे, सारे बैलेट पेपर पर हम बार कोड डाल दें तो उसकी मशीन के ज़रिए गिनती हो सकती है या नहीं. सुप्रीम कोर्ट ने ईवीएम के ज़रिए डाले गए सभी वोटों का वीवीपैट के साथ मिलान के लिए आग्रह करने वाली याचिकाओं पर फैसला सुरक्षित रखा था. जस्टिस संजीव खन्ना और जस्टिस दीपांकर दत्ता की पीठ ने कहा था कि कुछ विषयों पर स्पष्टीकरण की ज़रूरत है क्योंकि ईवीएम के बारे में बार-बार पूछे जाने वाले सवालों के जो जवाब आयोग की तरफ़ से दिए गए हैं, उसमें बहुत कुछ साफ नहीं है |
+                            </p>
+                            <div class="main-news-image">
+                                <img src="../img/EVM3.jpeg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="main-news-content mt-4">
+                            <h4>Questions have been raised on EVA</h4>
+                            <h4 class="mb-4">ईवीए पर उठते रहे हैं सवाल</h4>
+                            <p>EVM has become the most important part of the election process in India. Its importance in India's democratic system can be understood from the fact that it is being used in every parliamentary and assembly election for almost two decades. In its 45-year history, EVMs have had to face doubts, criticisms and allegations, but the Election Commission says that EVMs play a very important role in conducting free and fair elections. The Election Commission has made several efforts from time to time to address concerns related to EVM irregularities or rigging. In this article we will know what EVM is, how it works, when it started being used, how much it costs to make them and how the election process changed after their introduction.</p>
+                            <p>ईवीएम, भारत में चुनाव प्रक्रिया का सबसे महत्वपूर्ण अंग बन गई है. भारत की लोकतांत्रिक प्रणाली में इसकी अहमियत को इस बात से समझा जा सकता है कि क़रीब दो दशक से हर संसदीय और विधानसभा चुनाव में इन्हें इस्तेमाल किया जा रहा है. अपने 45 साल के इतिहास में ईवीएम को शंकाओं, आलोचनाओं और आरोपों का भी सामना करना पड़ा है, लेकिन चुनाव आयोग का कहना है कि स्वतंत्र और निष्पक्ष चुनाव करवाने में ईवीएम बहुत अहम भूमिका निभाती है. ईवीएम में गड़बड़ी या इसके ज़रिये धांधली से जुड़ी चिंताओं को दूर करने के लिए चुनाव आयोग ने समय-समय पर कई कोशिशें भी की हैं. इस लेख में हम जानेंगे कि ईवीएम क्या है, यह कैसे काम करती है, इसका इस्तेमाल कब शुरू हुआ, इन्हें बनाने में कितना खर्च होता है और इनके आने के बाद चुनाव प्रक्रिया कैसे बदली |
+                            </p>
+                            <div class="main-news-image">
+                                <img src="../img/EVM4.jpeg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="main-news-content mt-4">
+                            <h4>What is EVM, how is it different from ballot paper?</h4>
+                            <h4 class="mb-4">क्या होती है ईवीएम, मतपत्र से कैसे अलग है?</h4>
+                            <p>EVM means electronic voting machine. A machine running on ordinary batteries, which records the votes cast during voting and also counts the votes. This machine is made of three parts. One is Control Unit (CU), the other is Balloting Unit (BU). Both these machines are connected by a five meter long wire. The third part is – VVPAT. Balloting unit is the part which is kept inside the voting compartment and the balloting unit is kept with the polling officer. Before EVMs, when voting was done through ballot paper, the polling officers used to give paper ballot papers to the voters. Then the voters would go to the voting compartment and stamp their favorite candidate. Then this ballot paper was put in the ballot box. But paper and seal are not used in the EVM system. Now the polling officer presses the 'Ballot' button on the control unit, after that the voter registers his vote by pressing the blue button next to his favorite candidate on the balloting unit. This vote gets recorded in the control unit. This unit can record 2000 votes. After the voting is over, counting of votes is done through this unit. Names of 16 candidates can be registered in one balloting unit. If there are more candidates, additional balloting units can be connected to the control unit. According to the Election Commission, 24 such balloting units can be connected together, so that voting can be conducted for a maximum of 384 candidates including NOTA. According to the Election Commission of India, EVM is very useful and it is also more accurate than paper ballots. Because in this the possibility of casting wrong or unclear vote is eliminated. This makes it easier for the voters to vote and also for the Election Commission to count. Earlier, votes used to be rejected because the seal was not placed at the right place, but now this does not happen. The Election Commission says that it is not necessary for voters to have knowledge of technology to use it. It is said to be even more convenient for illiterate voters.</p>
+                            <p>ईवीएम का मतलब है इलेक्ट्रॉनिक वोटिंग मशीन. साधारण बैटरी पर चलने वाली एक ऐसी मशीन, जो मतदान के दौरान डाले गए वोटों को दर्ज करती है और वोटों की गिनती भी करती है. ये मशीन तीन हिस्सों से बनी होती है. एक होती है कंट्रोल यूनिट (सीयू), दूसरी बैलेटिंग यूनिट (बीयू). ये दोनों मशीनें पांच मीटर लंबी एक तार से जुड़ी होती हैं. तीसरा हिस्सा होता है- वीवीपैट.बैलेटिंग यूनिट वह हिस्सा होता है, जिसे वोटिंग कंपार्टमेंट के अंदर रखा जाता है और बैलेटिंग यूनिट को पोलिंग ऑफिसर के पास रखा जाता है. ईवीएम से पहले जब बैलट पेपर यानी मतपत्र के ज़रिये वोटिंग होती थी, तब मतदान अधिकारी मतदाता को काग़ज़ का मतपत्र दिया करते थे. फिर मतदाता मतदान कंपार्टमेंट जाकर अपने पसंदीदा उम्मीदवार के आगे मुहर लगा देते थे. फिर इस मतपत्र को मतपेटी में डाल दिया जाता था. लेकिन ईवीएम की व्यवस्था में काग़ज़ और मुहर का इस्तेमाल नहीं होता. अब मतदान अधिकारी कंट्रोल यूनिट पर ‘बैलट’ बटन दबाते हैं, उसके बाद मतदाता बैलेटिंग यूनिट पर अपने पसंदीदा उम्मीदवार के आगे लगा नीला बटन दबाकर अपना वोट दर्ज करते हैं. यह वोट कंट्रोल यूनिट में दर्ज हो जाता है. यह यूनिट 2000 वोट दर्ज कर सकती है. मतदान संपन्न होने के बाद मतगणना इसी यूनिट के माध्यम से की जाती है. एक बैलेटिंग यूनिट में 16 उम्मीदवारों के नाम दर्ज किए जा सकते हैं. अगर उम्मीदवार अधिक हों तो अतिरिक्त बैलेटिंग यूनिट्स को कंट्रोल यूनिट से जोड़ा जा सकता है.चुनाव आयोग के अनुसार, ऐसी 24 बैलेटिंग यूनिट एकसाथ जोड़ी जा सकती हैं, जिससे नोटा समेत अधिकतम 384 उम्मीदवारों के लिए मतदान करवाया जा सकता है. भारत के चुनाव आयोग के मुताबिक़, ईवीएम बहुत ही उपयोगी है और यह पेपर बैलट यानी मतपत्रों की तुलना में सटीक भी होती है, क्योंकि इसमें ग़लत या अस्पष्ट वोट डालने की संभावना ख़त्म हो जाती है. इससे मतदाताओं को वोट देने में भी आसानी होती है और चुनाव आयोग को गिनने में भी. पहले सही जगह मुहर ना लगने के कारण मत ख़ारिज हो जाया करते थे, लेकिन अब ऐसा नहीं होता.चुनाव आयोग कहता है कि इसके इस्तेमाल के लिए मतदाताओं को तकनीक का ज्ञान होना भी ज़रूरी नहीं है. निरक्षर मतदाताओं के लिए तो इसे और भी ज़्यादा सुविधाजनक बताया जाता है |
+                            </p>
+                            <div class="main-news-image">
+                                <img src="../img/EVM5.jpeg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="main-news-content mt-4">
+                            <h4>What is Voter Verifiable Paper Audit Trail (VVPAT)?</h4>
+                            <h4 class="mb-4">वोटर वेरिफ़ायबल पेपर ऑडिट ट्रेल (वीवीपैट) क्या है?</h4>
+                            <p>Many political parties have been raising objections regarding EVMs. With the intention of removing these doubts, the Election Commission came up with a new system, which is called Voter Verifiable Paper Audit Trail (VVPAT). In common parlance it is also called VVPAT. This is a system connected to EVM, Through which voters can see whether their vote has been cast by the correct candidate or not. As soon as the blue button is pressed on the ballot unit of the EVM, a slip containing the name, order and election symbol of the candidate is printed in the VVPAT machine placed next to it, for seven seconds. It appears in a small transparent part in the VVPAT machine and then falls into a sealed box. EVMs with VVPAT were used for the first time in 2013 during the by-election in Noksen assembly constituency of Nagaland. Now VVPAT is used in every election and it is an integral part of EVM. To resolve the doubts, a system has also been made that one machine from each constituency is randomly selected and then the EVM machine is used. The matching of votes is done with the votes on VVPAT slips. According to the Election Commission, if somewhere the figures of votes coming in the machine are different from the figures of VVPAT slips, then the figures of VVPAT will be given preference.</p>
+                            <p>ईवीएम को लेकर कई राजनीतिक दल आपत्ति जताते रहे हैं. इन शंकाओं को दूर करने के इरादे से चुनाव आयोग एक नई व्यवस्था लेकर आया, जिसे वोटर वेरिफ़ायबल पेपर ऑडिट ट्रेल (वीवीपीएट) कहा जाता है. आम बोलचाल में इसे वीवीपैट भी कहा जाता है. यह ईवीएम से जोड़ा गया एक ऐसा सिस्टम है, जिससे वोटर यह देख सकते हैं कि उनका वोट सही उम्मीदवार को पड़ा है या नहीं.ईवीएम की बैलेट यूनिट पर नीला बटन दबते ही बग़ल में रखी वीवीपैट मशीन में उम्मीदवार के नाम, क्रम और चुनाव चिह्न वाली एक पर्ची छपती है, सात सेकंड के लिए वह वीवीपैट मशीन में एक छोटे से पारदर्शी हिस्से में नज़र आती है और फिर सीलबंद बक्से में गिर जाती है. वीवीपैट वाली ईवीएम का इस्तेमाल पहली बार साल 2013 में नगालैंड के नोकसेन विधानसभा क्षेत्र में हुए उपचुनाव के दौरान किया गया था. अब हर चुनाव में वीवीपैट को इस्तेमाल किया जाता है और यह ईवीएम का अभिन्न अंग है.शंकाओं का निदान करने के लिए ऐसी व्यवस्था भी बनाई गई है कि हर चुनावक्षेत्र की किसी एक मशीन का रैंडम तरीके से चयन किया जाता है और फिर ईवीएम मशीन के वोटों का मिलान, वीवीपैट पर्चियों के वोटों से किया जाता है.चुनाव आयोग के अनुसार, अगर कहीं पर मशीन में आ रहे वोटों के आंकड़े वीवीपैट की पर्चियों के आंकड़ों से अलग आते हैं तो वीपीपैट के आंकड़ों को तरजीह दी जाएगी |
+                            </p>
+                            <div class="main-news-image">
+                                <img src="../img/EVM6.jpeg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="main-news-content mt-4">
+                            <h4>Which companies make EVMs in India?</h4>
+                            <h4 class="mb-4">भारत में कौन सी कंपनियां बनाती हैं ईवीएम</h4>
+                            <p>EVM and VVPAT machines are not imported. These are designed and manufactured in India only. According to the Election Commission, two government companies are authorized for this. One is Bharat Electronics Limited (BEL), which comes under the Ministry of Defense and the other company is Electronics Corporation of India Limited (ECIL) which comes under the Department of Atomic Energy.  Both the companies work under the guidance of the Technical Experts Committee (TEC) formed by the Election Commission.</p>
+                            <p>ईवीएम और वीवीपैट मशीनों को आयात नहीं किया जाता. इन्हें भारत में ही डिज़ाइन किया गया है और यहीं इनका निर्माण होता है. चुनाव आयोग के अनुसार, इसके लिए दो सरकारी कंपनियां अधिकृत हैं. एक है भारत इलेक्ट्रॉनिक्स लिमिटेड (बीईएल) करती है, जो रक्षा मंत्रालय के तहत आती है और दूसरी कंपनी है इलेक्ट्रॉनिक्स कॉर्पोरेशन ऑफ़ इंडिया लिमिटेड (ईसीआईएल) जो डिपार्टमेंट ऑफ़ एटॉमिक एनर्जी के तहत आती है.  दोनों कंपनियां चुनाव आयोग की ओर से बनाई टेक्निकल एक्सपर्ट्स कमेटी (टीईसी) के मार्गदर्शन में काम करती है |
+                            </p>
+                            <div class="main-news-image">
+                                <img src="../img/EVM7.jpeg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="main-news-content mt-4">
+                            <h4>Invention and use of EVM</h4>
+                            <h4 class="mb-4">ईवीएम का अविष्कार और इस्तेमाल</h4>
+                            <p>Many types of voting machines have been used experimentally in different countries of the world. However, their form has been different from the EVMs used in India. The machine used in India is called Direct Recording EVM (DRE). According to the Election Commission, the idea of ​​using machines for voting in India first came up in the year 1977. The then Chief Election Commissioner S.L. Shakdhar had talked about using them. At that time, Electronics Corporation of India Limited, Hyderabad was given the responsibility of designing and developing EVMs. In 1979, an initial model of EVM was developed, which was demonstrated in front of the Election Commission and representatives of political parties on 6 August 1980. Later Bharat Electronics Limited (BEL) of Bengaluru was also selected to develop EVMs.</p>
+                            <p>दुनिया के अलग-अलग देशों में कई तरह की वोटिंग मशीनें प्रयोग के तौर पर इस्तेमाल की जाती रही हैं. हालांकि, उनका स्वरूप भारत में इस्तेमाल की जाने वाली ईवीएम से अलग रहा है. भारत में इस्तेमाल होने वाली मशीन को डायरेक्ट रिकॉर्डिंग ईवीएम (डीआरई) कहा जाता है. चुनाव आयोग के अनुसार, भारत में वोटिंग के लिए मशीन इस्तेमाल करने का विचार सबसे पहले साल 1977 में सामने आया था. तत्कालीन मुख्य चुनाव आयुक्त एस.एल. शकधर ने इन्हें इस्तेमाल करने की बात की थी. उस समय इलेक्ट्रॉनिक्स कॉर्पोरेशन ऑफ़ इंडिया लिमिटेड हैदराबाद को ईवीएम डिज़ाइन और विकसित करने की ज़िम्मेदारी दी गई थी.1979 में ईवीएम का एक शुरुआती मॉडल विकसित किया गया, जिसे 6 अगस्त 1980 में चुनाव आयोग और राजनीतिक दलों के प्रतिनिधियों के सामने प्रदर्शित किया. बाद में बेंगलुरु की भारत इलेक्ट्रॉनिक्स लिमिटेड (बीईएल) को भी ईवीएम विकसित करने के लिए चुना गया |
+                            </p>
+                            <div class="main-news-image">
+                                <img src="../img/EVM8.jpeg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="main-news-content mt-4">
+                            <h4>Used in elections for the first time</h4>
+                            <h4 class="mb-4">पहली बार चुनावों में इस्तेमाल</h4>
+                            <p>EVMs were used for the first time in elections in India in the year 1982. During the by-election held on Parur seat of Kerala Assembly, EVMs with balloting unit and control unit were used. But because there was no law regarding the use of this machine, the Supreme Court had rejected that election. After this, in the year 1989, Parliament amended the Representation of the People Act, 1951 and made a provision for the use of EVMs in elections. Even after this, a consensus regarding its use was formed in the year 1998 and it was used in the elections held in 25 assembly seats of Madhya Pradesh, Rajasthan and Delhi. Later in the year 1999, EVMs were also used in the elections held on 45 seats. During the Haryana Assembly elections in February 2000, EVMs were used on 45 seats. In the assembly elections held in Tamil Nadu, West Bengal, Kerala and Puducherry in May 2001, EVMs were used to record votes in all seats. Since then, EVMs have been used in every assembly election. In the 2004 general elections, more than 10 lakh EVMs were used for voting in all 543 parliamentary constituencies.</p>
+                            <p>भारत में चुनावों में पहली बार ईवीएम का इस्तेमाल साल 1982 में हुआ था. केरल विधानसभा की पारूर सीट पर हुए उपचुनाव के दौरान बैलटिंग यूनिट और कंट्रोल यूनिट वाली ईवीएम इस्तेमाल की गई. लेकिन इस मशीन के इस्तेमाल को लेकर कोई क़ानून न होने के कारण सुप्रीम कोर्ट ने उस चुनाव को ख़ारिज कर दिया था. इसके बाद, साल 1989 में संसद ने लोक प्रतिनिधित्व अधिनियम, 1951 में संशोधन किया और चुनावों में ईवीएम के इस्तेमाल का प्रावधान किया. इसके बाद भी इसके इस्तेमाल को लेकर आम सहमति साल 1998 में बनी और मध्य प्रदेश, राजस्थान और दिल्ली की 25 विधानसभा सीटों में हुए चुनाव में इसका इस्तेमाल हुआ. बाद में साल 1999 में 45 सीटों पर हुए चुनाव में भी ईवीएम इस्तेमाल की गई. फ़रवरी 2000 में हरियाणा विधानसभा चुनाव के दौरान 45 सीटों पर ईवीएम इस्तेमाल की गई.मई 2001 में तमिलनाडु, पश्चिम बंगाल, केरल और पुद्दुचेरी में हुए विधानसभा चुनावों में सभी सीटों में मतदान दर्ज करने के लिए ईवीएम इस्तेमाल हुईं. उसके बाद से हुए हर विधानसभा चुनाव में ईवीएम इस्तेमाल होती आ रही हैं. 2004 के आम चुनावों में सभी 543 संसदीय क्षेत्रों में मतदान के लिए 10 लाख से ज़्यादा ईवीएम इस्तेमाल की गई थीं |
+                            </p>
+                            <div class="main-news-image">
+                                <img src="../img/EVM9.jpeg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="main-news-content mt-4">
+                            <h4>Petitions in courts</h4>
+                            <h4 class="mb-4">अदालतों में याचिकाएं</h4>
+                            <p>There have been allegations of rigging in voting through EVMs since the beginning. Such cases have also reached the courts. The Election Commission says that various High Courts have considered EVMs reliable. Also, when some decisions given by the High Courts in favor of EVMs were challenged in the Supreme Court, then the Supreme Court rejected those appeals.</p>
+                            <p>ईवीएम के ज़रिये मतदान में धांधली के आरोप शुरू से ही लगते रहे हैं. इस तरह के मामले अदालतों में भी पहुंचे हैं. चुनाव आयोग का कहना है कि विभिन्न हाई कोर्ट ने ईवीएम को भरोसेमंद माना है.साथ ही, ईवीएम के पक्ष में हाई कोर्टों द्वारा दिए गए कुछ फ़ैसलों को जब सुप्रीम कोर्ट में चुनौती दी गई, तब सुप्रीम कोर्ट ने उन अपीलों को खारिज कर दिया |
+                            </p>
+                            <div class="main-news-image">
+                                <img src="../img/EVM10.jpeg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="main-news-content mt-4">
+                            <h4>Case against EVM</h4>
+                            <h4 class="mb-4">ईवीएम के ख़िलाफ़ केस</h4>
+                            <p>What is the cost of EVMs and are they expensive to use? As we know by now, a voting machine has three main parts – Control Unit (CU), Balloting Unit (BU) and VVPAT. The Price Negotiation Committee of the Government of India decides the prices of these parts. According to the Election Commission, the price of BU is Rs 7991, CU is Rs 9812 and the most expensive part is – VVPAT, which costs Rs 16,132. An EVM lasts for at least 15 years. It is also claimed that this will make the election process cheaper. However, critics say that after the elections, storing the EVMs and continuously high-tech monitoring of them involves huge expenditure. But the Election Commission says that even though the initial investment seems a bit high, there is savings in the expenses incurred in printing, transporting and storing lakhs of ballot papers for every election. Apart from this, according to the Election Commission, counting of votes does not require much staff and the reduction in remuneration given to them more than compensates for the investment.</p>
+                            <p>क्या है ईवीएम की लागत और क्या इनका इस्तेमाल महंगा है, जैसा कि अब तक हम जान गए हैं, वोटिंग मशीन के तीन मुख्य हिस्से होते हैं- कंट्रोल यूनिट (सीयू), बैलेटिंग यूनिट (बीयू) और वीवीपैट. भारत सरकार की प्राइस नैगोसिएशन कमेटी ने इन हिस्सों के दाम तय करती है. चुनाव आयोग के मुताबिक़, बीयू की कीमत है 7991 रुपये, सीयू की 9812 रुपये और सबसे महंगा हिस्सा है- वीवीपैट, जिसका दाम है 16,132 रुपये. एक ईवीएम कम से कम 15 साल तक चलती है. इससे चुनाव प्रक्रिया सस्ती होने का भी दावा किया जाता है. हालांकि, आलोचकों का कहना है कि चुनावों के बाद ईवीएम को स्टोर करके इनकी लगातार हाईटेक निगरानी करने में भारी भरकम खर्च आता है. मगर चुनाव आयोग का कहना है कि भले ही शुरुआती निवेश कुछ ज़्यादा लगता है, लेकिन हर चुनाव के लिए लाखों की संख्या में मतपत्र छापने, उन्हें ढोने, स्टोर करने में होने वाले खर्च से बचत होती है. इसके अलावा चुनाव आयोग के मुताबिक़, मतगणना के लिए ज़्यादा स्टाफ़ की ज़रूरत नहीं पड़ती और उन्हें दिए जाने वाले पारिश्रमिक में कमी आने से निवेश की तुलना में कहीं ज़्यादा भरपाई हो जाती है |
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5 d-none d-md-block">
+                    <div class="latest-news">
+                        <div class="latest-news-title">
+                            <h5>Latest News</h5>
+                        </div>
+                        <div class="small-card card">
+                            <a
+                                href="../international/What is the matter of cancer causing substance being found in MDH and Everest spices in Hong Kong and Singapore.html"><img
+                                    src="../img/MDH3.jpeg" height="90px" alt="..."></a>
+                            <a href="#">
+                                <div class="mycard-body ">
+                                    <p class="card-text"> What is the matter of cancer causing substance being found in
+                                        MDH and Everest
+                                        spices in Hong Kong and Singapore?</p>
+                                    <p class="card-text">हांगकांग और सिंगापुर में एमडीएच और एवरेस्ट के मसालों में कैंसर
+                                        पैदा करने वाला पदार्थ मिलने का क्या है मामला?</p>
+                                </div>
+                            </a>
+                        </div>
+                        <hr>
+                        <div class="small-card card">
+                            <a href="#"><img src="../img/war4.jpeg" height="90px" alt="..."></a>
+                            <a href="#">
+                                <div class="mycard-body ">
+                                    <p class="card-text">Israel vs Iran: Who has how much power?</p>
+                                    <p class="card-text">इसराइल बनाम ईरान: किसके पास कितनी ताक़त</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="my-5">
+    <!-- <section class="cards-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6  mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6  mb-4">
+                    <a href="#">
+                        <div class="card">
+                            <img src="../img/1690232954392_siraj_vs_wi_.webp" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <p class="card-text">पुतिन के खिलाफ बग़ावत करने वाले प्रिगोझिन का प्लेन क्रैश, रूसी
+                                    मीडिया ने क्या बताया?</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Footer section start -->
+    <section class="footer_wrapper mt-4 mb-md-0 text-center text-sm-start">
+        <div class="footer-section py-5">
+            <div class="container px-5 px-lg-0">
+                <div class="row m-0 align-items-center justify-content-center ">
+                    <div class="col-lg-2 col-sm-12 mb-5 mb-lg-0 d-flex justify-content-center">
+                        <div class=" news-logo  ms-0 ms-sm-4">
+                            <a href="../index.html" class="d-flex">
+                                <h3 class="me-2" style="color: #00a650; font-weight: 900;">जागरुक</h3>
+                                <h3 style="color: #52b6ef; font-weight: 900;">जनरक्षक</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-sm-6  my-3 my-lg-0 order-4 order-lg-0 d-flex flex-column align-items-center">
+                        <h4 class="mb-3">Trending News</h4>
+                        <ul class="link-widget p-0 list-unstyled ">
+                            <li><a href="#">India vs West Indies</a></li>
+                            <li><a href="#">Pakistan</a></li>
+                            <li><a href="#">Politics</a></li>
+                            <li><a href="#">Seema Haider</a></li>
+                            <li><a href="#">Wheather</a></li>
+                        </ul>
+                    </div>
+                    <div
+                        class="col-lg-3 col-sm-6  my-3 my-lg-0 order-3 order-lg-0 d-flex flex-column align-items-center">
+                        <h4 class="mb-3">Categories</h4>
+                        <ul class="link-widget p-0 list-unstyled">
+                            <li><a href="../politics/index.html">Politcs</a></li>
+                            <li><a href="#">Sports</a></li>
+                            <li><a href="#">Bollywood</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">International</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 d-flex justify-content-center">
+                        <div class="social-connect d-flex align-items-center">
+                            <h6 class="mb-0">Follow us</h6>
+                            <ul class="social-network p-0 mb-0 list-unstyled">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright-section d-flex py-1 justify-content-center">
+            <p class="m-0">Copyright <a href="#" class="text-decoration-none"> &copy;News Channel.</a> All Rights
+                Reserved</p>
+        </div>
+    </section>
+    <!-- Footer section end -->
+
+
+    <!-- Bootstrap CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+
+    <!-- Swipper JS CDN -->
+    <script src="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.js"></script>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
